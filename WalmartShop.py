@@ -68,7 +68,7 @@ def search(driver,term):
 
 def WalmartShop():
     driver = webdriver.Firefox(executable_path=r'C:\Users\Tanner\Desktop\geckodriver-v0.16.1-win64\geckodriver.exe')
-    login(driver,"tschmoek@gmail.com","England2012")
+    login(driver,"","")
 
     NavigateFoods(driver,"ProduceBtn","FreshFruitLink")
 
@@ -127,152 +127,8 @@ def WalmartShop():
     search(driver,"tuna")
     AddToCart(driver,"Bumble Bee Albacore Solid White In Water 5 oz Tuna, 4 ct",0)
 
-
-    # Use below to click to next page
-    # driver.find_element_by_class_name('_3yroc._375AN').click()
-
     driver.implicitly_wait(2)
 
-    # ele.find_element_by_xpath("//p[@id='one']/following-sibling::p")
-    # css=a:contains('Log Out')
-    
-    # driver.quit()
+
 
 WalmartShop()
-            # search salad dressing
-            # Brianna's Asiago Caesar Dressing, 12 fl oz
-            # Salad Greens & Herbs
-            # Marketside Premium Romaine Salad, 9 oz
-            # Marketside Premium Romaine Salad, 9 oz
-            # Meat
-            # Chicken
-            # Tyson Boneless Skinless Fresh Chicken Thighs, 1.5-2.0 lbs.
-            # Milk
-            # Great Value Vitamin D Milk, 1 gal
-            # search greek yogurt
-            # Great Value Blended Whole Milk Plain Greek Yogurt, 32 oz
-            # search cottage cheese
-            # Great Value Small Curd Cottage Cheese, 24 oz
-            # Sara Lee 100% Whole Wheat Bakery Bread With Honey, 20 oz
-            # Sara Lee Cinnamon with Raisins Bread, 16 oz
-
-            # Mahatma Natural Long Grain Rice Brown, 28 oz
-            # Great Value Dried Pinto Beans, 32 oz
-
-            # International Foods
-            # Sriracha Hot Chili Sauce, 9 oz
-
-            # frozen shrimp cooked
-            # Small Cooked Shrimp: peeled, deveined, tail-off, 1lb
-
-            # spagetti noodles
-            # Skinner Long Spaghetti, 12 oz
-
-            # whole tomatoes
-            # Great Value Whole Tomatoes, 28 oz
-
-            # tuna
-            # Bumble Bee Albacore Solid White In Water 5 oz Tuna, 4 ct
-  # Produce
-    # FreshVegetablesLink
-    # SaladGreens&HerbsLink
-    # OrganicProduceLink
-    # Tofu&SoyProductsLink
-    # FreshFlowersLink
-
-    # Meat
-    # BeefLink
-    # ChickenLink
-    # PorkLink
-    # TurkeyLink
-    # Bacon,HotDogs&SausageLink
-    # SeafoodLink
-    # GrillingLink
-    # Specialty&OrganicMeatLink
-
-    # Eggs & Dairy
-    # CheeseLink
-    # MilkLink
-    # Cream&CreamersLink
-    # YogurtLink
-    # EggsLink
-    # Butter&MargarineLink
-    # RefrigeratedJuices,Teas&CoffeesLink
-    # SourCream&DipLink
-    # RefrigeratedDoughs&CrustsLink
-    # Pudding&GelatinLink
-
-    # Deli
-    # DeliSlicedMeat&CheeseLink
-    # LunchMeat&LunchPacksLink
-    # DeliPreparedFoodLink
-    # FreshPasta&PizzaLink
-
-    # Bread&BakeryBtn
-    # SlicedBreadLink
-    # SnackCakesLink
-    # Baguettes,Loaves,&BreadsticksLink
-    # Rolls&BunsLink
-    # Tortillas&FlatbreadsLink
-    # Bagels,EnglishMuffins&BreakfastBreadsLink
-    # Donuts&PastriesLink
-    # DessertsLink
-    # PattiLaBelleDessertsLink
-    # SummerBakeryLink
-
-    # PantryBtn
-    # Cereal&BreakfastFoodLink
-    # BakingLink
-    # CondimentsLink
-    # Oil&VinegarLink
-    # Herbs&SeasoningLink
-    # CannedGoodsLink
-    # SoupLink
-    # Pasta&PizzaLink
-    # BoxedDinnersLink
-    # Potatoes&StuffingLink
-    # Rice,Grains&DriedBeansLink
-    # InternationalFoodsLink
-
-    # SnacksBtn
-    # Cookies&CrakersLink
-    # SnackBarsLink
-    # SnackCakesLink
-    # Chips&DipLink
-    # FruitSnacksLink
-    # Popcorn&PretzelsLink
-    # Nuts&DriedFruitLink
-    # Jerky&RindsLink
-    # CandyLink
-
-    # BeveragesBtn
-    # SoftDrinksLink
-    # FruitJuiceLink
-    # WaterLink
-    # Sports&EnergyDrinksLink
-    # CoffeeLink
-    # TeaLink
-    # SpecialtiyDrinksLink
-    # IceLink
-
-    # FrozenBtn
-    # FrozenBeverages&IceLink
-    # FrozenSnacks&AppetizersLink
-    # FrozenFamilyMealsLink
-    # FrozenMeat&SeafoodLink
-    # FrozenFruits&VegetablesLink
-    # IceCreamLink
-    # FrozenBread&PotatoesLink
-    # FrozenBreakfastLink
-    # FrozenKidsMealsLink
-    # FrozenPizza&PastaLink
-    # FrozenDessertsLink
-
-    # OrganicShopBtn
-    # OrganicBabyLink
-    # OrganicBeveragesLink
-    # OrganicBread&BakeryLink
-    # OrganicDairy,Eggs&MeatLink
-    # OrganicFruits&VegetablesLink
-    # OrganicPantryLink
-    # GreatValueOrganicLink
